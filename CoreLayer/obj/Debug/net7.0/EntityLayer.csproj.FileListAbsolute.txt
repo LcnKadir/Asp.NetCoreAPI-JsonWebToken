@@ -1,0 +1,11 @@
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\bin\Debug\net7.0\EntityLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\EntityLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\refint\EntityLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\EntityLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\CoreLayer\obj\Debug\net7.0\ref\EntityLayer.dll

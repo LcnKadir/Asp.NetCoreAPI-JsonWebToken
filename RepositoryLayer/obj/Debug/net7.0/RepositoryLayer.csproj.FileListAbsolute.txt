@@ -1,0 +1,15 @@
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\refint\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\bin\Debug\net7.0\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\bin\Debug\net7.0\CoreLayer.pdb
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\WebApplication1\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.CopyComplete
