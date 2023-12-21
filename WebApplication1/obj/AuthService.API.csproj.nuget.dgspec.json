@@ -27,7 +27,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\SharedLibrary\\SharedLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

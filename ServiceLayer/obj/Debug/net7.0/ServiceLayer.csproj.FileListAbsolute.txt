@@ -32,3 +32,5 @@ C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\ServiceLayer\ob
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\ServiceLayer\bin\Debug\net7.0\SharedLibrary.dll
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\ServiceLayer\bin\Debug\net7.0\SharedLibrary.pdb

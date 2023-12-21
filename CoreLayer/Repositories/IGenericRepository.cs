@@ -19,5 +19,7 @@ namespace CoreLayer.Repository
 
         void Remove(TEntitiy entitiy);
 
+        TEntitiy Update (TEntitiy entitiy);
+
     }
 }

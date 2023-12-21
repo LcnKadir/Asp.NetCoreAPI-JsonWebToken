@@ -22,3 +22,6 @@ C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\obj\D
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\obj\Debug\net7.0\refint\CoreLayer.dll
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\bin\Debug\net7.0\SharedLibrary.dll
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\bin\Debug\net7.0\SharedLibrary.pdb
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\CoreLayer\obj\Debug\net7.0\CoreLayer.csproj.CopyComplete

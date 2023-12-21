@@ -320,7 +320,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.1"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.1",
+          "SharedLibrary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CoreLayer.dll": {}
@@ -328,6 +329,19 @@
         "runtime": {
           "bin/placeholder/CoreLayer.dll": {}
         }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -778,6 +792,11 @@
       "type": "project",
       "path": "../CoreLayer/CoreLayer.csproj",
       "msbuildProject": "../CoreLayer/CoreLayer.csproj"
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
