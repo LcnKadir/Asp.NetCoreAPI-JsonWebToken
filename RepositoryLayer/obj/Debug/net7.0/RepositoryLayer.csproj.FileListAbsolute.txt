@@ -30,3 +30,5 @@ C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\RepositoryLayer
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\RepositoryLayer\bin\Debug\net7.0\SharedLibrary.dll
 C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\RepositoryLayer\bin\Debug\net7.0\SharedLibrary.pdb
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\RepositoryLayer\bin\Debug\net7.0\RepositoryLayer.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\Asp.Net Core API + JWT -Proje\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.genruntimeconfig.cache
