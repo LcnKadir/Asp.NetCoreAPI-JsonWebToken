@@ -16,10 +16,10 @@ namespace CoreLayer.Services
 
         Task<Response<IEnumerable<TDto>>> Where(Expression<Func<TEntitiy, bool>> predicate);
 
-        Task<Response<TDto>> AddAsync(TEntitiy entitiy);
+        Task<Response<TDto>> AddAsync(TDto entitiy);
 
-        Task<Response<NoDataDto>> Remove(TEntitiy entitiy);
-        Task<Response<NoDataDto>> Update(TEntitiy entitiy);
+        Task<Response<NoDataDto>> Remove(int id);
+        Task<Response<NoDataDto>> Update(TDto entitiy, int id);
 
 
     }

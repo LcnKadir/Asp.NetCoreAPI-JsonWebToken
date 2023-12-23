@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "w841skDpsRiKcNcZxpjEmNri+c/KERQ2rXeW3llG9BY=",
-  "Source": "AuthService.API",
-  "BasePath": "_content/AuthService.API",
+  "Hash": "jn/qMxQQDG6azZ9purdz2F92Mqc65AROzXhpad0jQg0=",
+  "Source": "AuthServer.API",
+  "BasePath": "_content/AuthServer.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
