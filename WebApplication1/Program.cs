@@ -1,3 +1,4 @@
+using CoreLayer.Configuration;
 using Microsoft.Extensions.Configuration;
 using SharedLibrary.Configurations;
 
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOption"));
+builder.Services.Configure<List<Client>>(builder.Configuration.GetSection("Clients"));
 
 
 builder.Services.AddSwaggerGen();

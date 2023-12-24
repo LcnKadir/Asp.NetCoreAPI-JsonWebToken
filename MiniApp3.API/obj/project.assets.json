@@ -493,11 +493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\MiniApp3.API\\MiniApp3.API.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\MiniApp3.API\\MiniApp3.API.csproj",
       "projectName": "MiniApp3.API",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\MiniApp3.API\\MiniApp3.API.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\MiniApp3.API\\MiniApp3.API.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\MiniApp3.API\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\MiniApp3.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,8 +514,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\SharedLibrary\\SharedLibrary.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\SharedLibrary\\SharedLibrary.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\SharedLibrary\\SharedLibrary.csproj"
             }
           }
         }

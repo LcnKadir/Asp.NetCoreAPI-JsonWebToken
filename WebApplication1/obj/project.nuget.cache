@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1VThG16tPTIq9Dvs448bBYfhfpLwVnyA/I42yOg5OpMDTkAQqGoVK0UErohJsp6EyeTiBZmWJ8xshkAalXMGFQ==",
+  "dgSpecHash": "ntFeDmCrlIgzlJPZiEJ+MlbjcDyAOTQAkc7kDg8ryqx+GG59FQUmhyM1UJL69OdVtI6H9qqFjwxr9rtE2EzXiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\WebApplication1\\AuthServer.API.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\WebApplication1\\AuthServer.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

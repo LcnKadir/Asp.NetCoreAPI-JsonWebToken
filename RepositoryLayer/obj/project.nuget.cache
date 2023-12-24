@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fw5eqlUKSWTf3AqqZ1vJrF+VBkYhuN+pkwWxmm5Znk+7ZmZo+UFNw1h1DwqsuDSpjhfURtVt4BLPu9HdvILNhg==",
+  "dgSpecHash": "8pyppbAHGVXO0jUa5AxZXPivl/zuESW/A4uwRnVQyVa6Rq5XaCoo8M+fbzQ2M8OlTmHinRsS5zoO2XlIXMY/Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\RepositoryLayer\\RepositoryLayer.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\RepositoryLayer\\RepositoryLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

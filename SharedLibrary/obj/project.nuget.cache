@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XHxGQ1JZY2xmP6uMKPEc3xDww8+uN2uh2KmrAAG7hCC/niD9/Rrps4PZcQQ4cm5Ys1dOOiBUNQ7Ixep4hqVVXQ==",
+  "dgSpecHash": "820fjiCU0irFTBhbHpQDDU7okK4533YOQEYViimHwwT60RsxK9uxkopITblo27lGFTeWYWz28OomcpsqZwkqKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.Net Core API + JWT -Proje\\SharedLibrary\\SharedLibrary.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\SharedLibrary\\SharedLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

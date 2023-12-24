@@ -10,7 +10,7 @@ namespace CoreLayer.Services
 {
     public interface IUserService
     {
-        Task<Response<UserAppDto>> CreatUserAsync(UserAppDto userAppDto);
-        Task<Response<UserAppDto>> GetUserByNameAsync(string username);
+        Task<Response<UserAppDto>> CreatUserAsync(CreatUserDto creatUserDto);
+        Task<Response<UserAppDto>> GetUserByNameAsync(string userName);
     }
 }
