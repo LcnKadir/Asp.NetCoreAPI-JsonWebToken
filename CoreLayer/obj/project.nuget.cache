@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p8W12YerOGbj3F41pqBXW5ZQpVVCVkmBT/yiEKlwa2j9a/4cpwdY08eAgpj86+pmBSxl6SLXDXB7mSIXWS+V5w==",
+  "dgSpecHash": "JeZmUXWqe0Bf5GwDHyvolDp2sE+Qp47h/UpcchhmC1vleliH09/nLj81y3QAE3V0NU25AT0k8c0pMUjqi2EiMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\JWT\\Asp.Net Core API + JWT -Proje\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.1\\microsoft.aspnetcore.cryptography.keyderivation.7.0.1.nupkg.sha512",

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
 {
-    internal static class SignService
+    public static class SignService
     {
 
         public static SecurityKey GetSymmmetriSecurityKey(string securityKey)

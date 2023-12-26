@@ -1,5 +1,14 @@
 using CoreLayer.Configuration;
+using CoreLayer.Models;
+using CoreLayer.Repository;
+using CoreLayer.Services;
+using CoreLayer.UnitOfWork;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using RepositoryLayer;
+using ServiceLayer.Services;
 using SharedLibrary.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,9 +21,62 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 
+//DI Register
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped(typeof(IServiceGeneric<,>),typeof(IServiceGeneric<,>));
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(IGenericRepository<>));
+
+builder.Services.AddScoped<IUnitOfWork, IUnitOfWork>();
+
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"), sqlOptions =>
+    {
+        sqlOptions.MigrationsAssembly("RepositoryLayer");
+    });
+
+});
+
+builder.Services.AddIdentity<UserApp,IdentityRole>(Opt =>
+{
+    Opt.User.RequireUniqueEmail = true;
+    Opt.Password.RequireNonAlphanumeric = false;
+
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+
+
 builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOption"));
 builder.Services.Configure<List<Client>>(builder.Configuration.GetSection("Clients"));
 
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+//Token'ýn ömrünü ve hangi verilere istek yapabileceðini belirliyoruz.//
+}).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, ops =>
+{
+    var tokenOptions = builder.Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+    ops.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+    {
+        ValidIssuer = tokenOptions.Issuer,
+        ValidAudience = tokenOptions.Audience[0],
+        IssuerSigningKey = SignService.GetSymmmetriSecurityKey(tokenOptions.SecurityKey),
+
+        ValidateIssuerSigningKey = true,
+        ValidateAudience = true,
+        ValidateIssuer = true,
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.Zero
+
+    };
+});
 
 builder.Services.AddSwaggerGen();
 

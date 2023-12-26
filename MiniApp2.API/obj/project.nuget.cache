@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZOjQHonzf6I4X0XBEsv1zeHosAPVHd9bPYsoT0eMnBsJRrrsXijbPiY5p430cgQMjl7RJMVrWMjUzlmyQMxkQ==",
+  "dgSpecHash": "F829Vls/YAqDTW14u3NwOrwcolPJ1x+IPNGwUMhqY58xBmNEZvuuEB2sbQyDdWrLxX0p2gk7usKrEpVhX9O7Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör\\Asp.NetCoreAPI-JWT-main\\MiniApp2.API\\MiniApp2.API.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\JWT\\Asp.Net Core API + JWT -Proje\\MiniApp2.API\\MiniApp2.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
