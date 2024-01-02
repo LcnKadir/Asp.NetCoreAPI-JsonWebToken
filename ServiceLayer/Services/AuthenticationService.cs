@@ -85,7 +85,7 @@ namespace ServiceLayer.Services
             return Response<ClientTokenDto>.Success(token, 200);
         }
 
-        public async Task<Response<TokenDto>> CreatTokenByRefreshToken(string refreshToken)
+        public async Task<Response<TokenDto>> CreatTokenByRefreshTokenAsync(string refreshToken)
         {
             var existRefreshToken = await _userRefreshTokenService.Where(x => x.Code == refreshToken).SingleOrDefaultAsync();
             if (existRefreshToken == null)
@@ -111,7 +111,7 @@ namespace ServiceLayer.Services
 
         }
 
-        public async Task<Response<NoDataDto>> RevokeRefreshToken(string refreshToken)
+        public async Task<Response<NoDataDto>> RevokeRefreshTokenAsync(string refreshToken)
         {
             var existRefreshToken = await _userRefreshTokenService.Where(x=> x.Code == refreshToken).SingleOrDefaultAsync();
             if(existRefreshToken == null)

@@ -13,8 +13,8 @@ namespace ServiceLayer
     {
         public DtoMapper()
         {
-            CreateMap<ProductDto, ProductDto>();
-            CreateMap<UserAppDto, UserApp>();
+            CreateMap<ProductDto, Product>().ReverseMap();
+            CreateMap<UserAppDto, UserApp>().ReverseMap();
         }
     }
 }
