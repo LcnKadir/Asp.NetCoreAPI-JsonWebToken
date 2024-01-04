@@ -10,6 +10,6 @@ namespace CoreLayer.Models
     {
         public string UserId { get; set; }
         public string Code { get; set; }
-        public DateTime Expiraiton { get; set; }
+        public DateTime Expiration { get; set; }
     }
 }

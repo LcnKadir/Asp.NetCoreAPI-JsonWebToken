@@ -4,16 +4,10 @@ using CoreLayer.Models;
 using CoreLayer.Repository;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWork;
-using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using SharedLibrary.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServiceLayer.Services
 {
@@ -56,20 +50,21 @@ namespace ServiceLayer.Services
             //In the token creation process, if the user does not have a token, a new token will be created.//
             if (userRefreshToken == null)
             {
-                await _userRefreshTokenService.AddAsync(new UserRefreshToken { UserId = user.Id, Code = token.RefreshToken, Expiraiton = token.RefreshTokenExpiration });
+                await _userRefreshTokenService.AddAsync(new UserRefreshToken { UserId = user.Id, Code = token.RefreshToken, Expiration = token.RefreshTokenExpiration });
             }
             //Kullanıcının Token'ı bulunuyorsa, mevcut Token'ı güncellenecek.//
             //If the user has a Token, the existing Token will be updated.//
             else
             {
                 userRefreshToken.Code = token.RefreshToken;
-                userRefreshToken.Expiraiton = token.RefreshTokenExpiration;
+                userRefreshToken.Expiration = token.RefreshTokenExpiration;
             }
 
             await _unitOfWork.CommitAsync();
-            return Response<TokenDto>.Success(200);
+            return Response<TokenDto>.Success(token,200);
 
         }
+
 
         public Response<ClientTokenDto> CreatTokenByClient(ClientLoginDto clientLoginDto)
         {
@@ -102,7 +97,7 @@ namespace ServiceLayer.Services
             var tokenDto = _tokenService.CreatToken(user);
 
             existRefreshToken.Code = tokenDto.RefreshToken;
-            existRefreshToken.Expiraiton = tokenDto.AccessTokenExpiration;
+            existRefreshToken.Expiration = tokenDto.AccessTokenExpiration;
 
             await _unitOfWork.CommitAsync();
 

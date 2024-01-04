@@ -75,7 +75,10 @@ namespace ServiceLayer.Services
             {
                 return Response<NoDataDto>.Fail("id not found", 404, true);
             }
-            var updateEntity = ObjectMapper.Mapper.Map<TDto>(entitiy);
+            var updateEntity = ObjectMapper.Mapper.Map<TEntitiy>(entitiy);
+
+            _genericRepository.Update(updateEntity);
+
             await _unitOfWork.CommitAsync();
             // 204 Durum Kodu => No Content => Response body'sinde hiçbir data olmayacak.//
             return Response<NoDataDto>.Success(204);

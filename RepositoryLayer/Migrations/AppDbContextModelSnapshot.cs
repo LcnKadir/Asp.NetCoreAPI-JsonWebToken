@@ -59,7 +59,6 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("City")
-                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -130,7 +129,7 @@ namespace RepositoryLayer.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<DateTime>("Expiraiton")
+                    b.Property<DateTime>("Expiration")
                         .HasColumnType("datetime2");
 
                     b.HasKey("UserId");
