@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "tUoELoiG7dk3BJBIDQ02GxNELeTpuEfpHhB8VdE9qkiprCDy2yqZSXEISrulEASYtWPi5vSv1iUIzbd+P/uc3g==",
+  "dgSpecHash": "2n3MJ+VAZNqyLJ/wkxOk7h71gqoKxQb9k9pB6EoQprbyJY+qpBxhkUOmwaLYarfjvDXkfW0emo/drdwdnIND/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\JWT\\Asp.Net Core API + JWT -Proje\\WebApplication1\\AuthServer.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.14\\microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",

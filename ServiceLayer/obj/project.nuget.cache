@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XvwLHA90TtDWtpb8AiuhYLLj/0XDbMWXxNTuI6WT2m0fNco0w0PONsdpPvOkD3s4tO25kRi1ZnVpfoXfV/epPQ==",
+  "dgSpecHash": "kl8FaB5aog0oIilaO2OWPJ9RCHvhYGZan3C26wralYWU+3uMkRK/HvUIcywKv/Ol4I1ALDN6r4RDp+pURiTV6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\JWT\\Asp.Net Core API + JWT -Proje\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.14\\microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.1\\microsoft.aspnetcore.cryptography.keyderivation.7.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.1.nupkg.sha512",

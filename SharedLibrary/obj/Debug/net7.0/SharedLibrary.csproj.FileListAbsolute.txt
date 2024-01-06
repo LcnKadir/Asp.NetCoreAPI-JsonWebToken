@@ -42,3 +42,4 @@ C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\SharedLibra
 C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\SharedLibrary\obj\Debug\net7.0\refint\SharedLibrary.dll
 C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\SharedLibrary\obj\Debug\net7.0\SharedLibrary.pdb
 C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\SharedLibrary\obj\Debug\net7.0\ref\SharedLibrary.dll
+C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.AssemblyReference.cache

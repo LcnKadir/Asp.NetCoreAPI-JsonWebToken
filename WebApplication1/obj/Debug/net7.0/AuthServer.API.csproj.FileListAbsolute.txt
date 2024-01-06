@@ -259,3 +259,6 @@ C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplicat
 C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplication1\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplication1\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplication1\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplication1\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplication1\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\kadir\OneDrive\Masaüstü\JWT\Asp.Net Core API + JWT -Proje\WebApplication1\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

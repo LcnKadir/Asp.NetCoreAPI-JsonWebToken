@@ -3,6 +3,7 @@ using CoreLayer.Models;
 using CoreLayer.Repository;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWork;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +13,8 @@ using RepositoryLayer.Repositories;
 using RepositoryLayer.UnitOfWork;
 using ServiceLayer.Services;
 using SharedLibrary.Configurations;
+using SharedLibrary.Extensions;
+using SharedLibrary.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,7 +30,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
-builder.Services.AddScoped(typeof(IServiceGeneric<,>),typeof(ServiceGeneric<,>));
+builder.Services.AddScoped(typeof(IServiceGeneric<,>), typeof(ServiceGeneric<,>));
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -42,7 +45,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 });
 
-builder.Services.AddIdentity<UserApp,IdentityRole>(Opt =>
+builder.Services.AddIdentity<UserApp, IdentityRole>(Opt =>
 {
     Opt.User.RequireUniqueEmail = true;
     Opt.Password.RequireNonAlphanumeric = false;
@@ -61,7 +64,7 @@ builder.Services.AddAuthentication(options =>
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
-//Token'ýn ömrünü ve hangi verilere istek yapabileceðini belirliyoruz.//
+    //Token'ýn ömrünü ve hangi verilere istek yapabileceðini belirliyoruz.//
 }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, ops =>
 {
     var tokenOptions = builder.Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
@@ -80,7 +83,20 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+
+
+
+builder.Services.AddControllers().AddFluentValidation(options =>
+{
+    options.RegisterValidatorsFromAssemblyContaining<Program>();
+});
+
+builder.Services.UseCustomValidationResponse();
+
 builder.Services.AddSwaggerGen();
+
+
+
 
 var app = builder.Build();
 
@@ -91,6 +107,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCustomException();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
