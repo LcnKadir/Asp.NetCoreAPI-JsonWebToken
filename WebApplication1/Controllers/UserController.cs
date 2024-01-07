@@ -9,6 +9,7 @@ namespace AuthServer.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class UserController : CustomBaseController
     {
         private readonly IUserService _userService;
