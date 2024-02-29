@@ -22,7 +22,7 @@
 
 ![](projectphotos/PostmanRevokeRefreshToken.png)
 
->Token retrieval and Token invocation processes have been performed for the User's registration and authentication processes in the system.
+>Refresh token purchase and update operations.
 ----
 ----
 #### Receiving Tokens with Client ID/Client Secret
@@ -30,6 +30,6 @@
 
 ![](projectphotos/Swaggminiapi.png)
 
-![](projectphotos/PostmanClientAuth.png)
-
 ![](projectphotos/PostmanCreatTokenByClient.png)
+
+![](projectphotos/PostmanClientAuth.png)
